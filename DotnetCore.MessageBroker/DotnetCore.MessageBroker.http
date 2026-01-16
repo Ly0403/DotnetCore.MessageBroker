@@ -1,0 +1,6 @@
+@DotnetCore.MessageBroker_HostAddress = http://localhost:5070
+
+GET {{DotnetCore.MessageBroker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
